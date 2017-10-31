@@ -3,7 +3,7 @@ package com.company;
 public class Main {
     static final int size = 8; //Size of the chess board
     static int[][] board = new int[size][size]; //chess board
-    static int[][][] memory = new int[size][size][100000]; //Memory of all the possible chess layouts !!Change the size of the Memory if you want the size of the chess board is greater than 13
+    static int[][][] memory = new int[size][size][100000]; //Memory of all the possible chess layouts !!Change the size of the Memory if you want the size of the chess board  greater than 13
     static int tot = 0; //Numbers of possible chess board layouts
 
     public static void main(String[] args) {
